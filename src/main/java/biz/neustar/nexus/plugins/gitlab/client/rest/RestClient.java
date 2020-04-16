@@ -39,7 +39,7 @@ import com.sun.jersey.client.apache.config.DefaultApacheHttpClientConfig;
  */
 public class RestClient {
 	private static final Logger LOGGER = LoggerFactory.getLogger(RestClient.class);
-	private static final String GITLAB_API_PATH = "/api/v3/";
+	private static final String GITLAB_API_PATH = "/api/v4/";
 
 	private final ObjectMapper objMapper = new ObjectMapper();
 	private final Client client;
