@@ -54,7 +54,7 @@ public class RestClient {
 		clientConfig.getProperties().put(ClientConfig.PROPERTY_READ_TIMEOUT, new Integer(config.getHttpTimeout()));
 		clientConfig.getProperties().put(ClientConfig.PROPERTY_THREADPOOL_SIZE, new Integer(config.getHttpMaxConnections()));
 
-		// /api/v3/user?private_token=<fill in>
+		// /api/v4/user?private_token=<fill in>
 		serverURL = new URI(config.getGitlabServerUrl()).resolve(GITLAB_API_PATH);
 
 		ApacheHttpClientState httpState = new ApacheHttpClientState();
