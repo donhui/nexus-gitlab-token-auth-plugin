@@ -1,9 +1,9 @@
 # Nexus authentication using Gitlab User token 
-[![Build Status](https://travis-ci.org/jdamick/nexus-gitlab-token-auth-plugin.svg?branch=master)](https://travis-ci.org/jdamick/nexus-gitlab-token-auth-plugin)
+![Downloads](https://img.shields.io/github/downloads/donhui/nexus-gitlab-token-auth-plugin/total)
 
 ## Install
 
-* Unzip the bundle (target/nexus-gitlab-token-auth-plugin-0.1.0-SNAPSHOT-bundle.zip) under sonatype-work/nexus/plugin-repository
+* Unzip the bundle ([nexus-gitlab-token-auth-plugin-0.3.1-bundle.zip](https://github.com/donhui/nexus-gitlab-token-auth-plugin/releases/download/0.3.1/nexus-gitlab-token-auth-plugin-0.3.1-bundle.zip)) under sonatype-work/nexus/plugin-repository
 * Copy & Edit the `sample/gitlab-plugin.xml` to: `sonatype-work/nexus/conf/gitlab-plugin.xml`
 * Start Nexus and use the Administration->Server panel to add Gitlab Token Authentication Realm to the list of active realms.
 
